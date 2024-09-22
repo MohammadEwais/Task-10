@@ -523,5 +523,26 @@ footer .SubFooter .container img{
     font-size: 11.5px;
      
 }
+.MainFooter .container .FooterSec1,.FooterSec2,.FooterSec3,.FooterSec4{
+   width:200px;
+   display: flex;
+   padding-top:9px;
 
+}
+.MainFooter .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+.IMAGE{
+    height:30vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;/*make it move with the webpage*/
+    position: relative;/*make it move with the webpage*/
+}
 }
